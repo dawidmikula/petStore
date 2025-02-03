@@ -1,0 +1,130 @@
+[
+    {
+        "image": "images/products/f1.jpg",
+        "brand": "PetCare",
+        "name": "Soft Cozy Dog Hoodie",
+        "price": 25,
+        "stars": 5,
+        "link": "singleProduct.html"
+    },
+    {
+        "image": "images/products/f2.jpg",
+        "brand": "FurryFriends",
+        "name": "Reflective Adjustable Collar",
+        "price": 18,
+        "stars": 4,
+        "link": "#"
+    },
+    {
+        "image": "images/products/f3.jpg",
+        "brand": "TailWag",
+        "name": "Luxury Pet Bed",
+        "price": 40,
+        "stars": 5,
+        "link": "#"
+    },
+    {
+        "image": "images/products/f4.jpg",
+        "brand": "Pawfect",
+        "name": "Interactive Chew Toy",
+        "price": 12,
+        "stars": 4,
+        "link": "#"
+    },
+    {
+        "image": "images/products/f5.jpg",
+        "brand": "PetStyle",
+        "name": "Waterproof Dog Jacket",
+        "price": 30,
+        "stars": 5,
+        "link": "#"
+    },
+    {
+        "image": "images/products/f6.jpg",
+        "brand": "PawHaven",
+        "name": "Pet Grooming Kit",
+        "price": 50,
+        "stars": 5,
+        "link": "#"
+    },
+    {
+        "image": "images/products/f7.jpg",
+        "brand": "WhiskerWorld",
+        "name": "Self-Cleaning Litter Box",
+        "price": 100,
+        "stars": 4,
+        "link": "#"
+    },
+    {
+        "image": "images/products/f8.jpg",
+        "brand": "FelineComfort",
+        "name": "Cat Scratching Post",
+        "price": 35,
+        "stars": 5,
+        "link": "#"
+    },
+    {
+        "image": "images/products/n1.jpg",
+        "brand": "BarkStyle",
+        "name": "LED Light-Up Leash",
+        "price": 20,
+        "stars": 5,
+        "link": "#"
+    },
+    {
+        "image": "images/products/n2.jpg",
+        "brand": "PawTrend",
+        "name": "Anti-Slip Dog Socks",
+        "price": 15,
+        "stars": 4,
+        "link": "#"
+    },
+    {
+        "image": "images/products/n3.jpg",
+        "brand": "HappyPaws",
+        "name": "Orthopedic Pet Mattress",
+        "price": 65,
+        "stars": 5,
+        "link": "#"
+    },
+    {
+        "image": "images/products/n4.jpg",
+        "brand": "FetchMasters",
+        "name": "Durable Tennis Ball Set",
+        "price": 10,
+        "stars": 4,
+        "link": "#"
+    },
+    {
+        "image": "images/products/n5.jpg",
+        "brand": "CozyPets",
+        "name": "Winter Fleece Pet Blanket",
+        "price": 22,
+        "stars": 5,
+        "link": "#"
+    },
+    {
+        "image": "images/products/n6.jpg",
+        "brand": "GroomEase",
+        "name": "Pet Nail Grinder",
+        "price": 28,
+        "stars": 5,
+        "link": "#"
+    },
+    {
+        "image": "images/products/n7.jpg",
+        "brand": "MeowMates",
+        "name": "Interactive Cat Feather Toy",
+        "price": 14,
+        "stars": 4,
+        "link": "#"
+    },
+    {
+        "image": "images/products/n8.jpg",
+        "brand": "PurrfectDine",
+        "name": "Automatic Pet Feeder",
+        "price": 80,
+        "stars": 5,
+        "link": "#"
+    }
+]

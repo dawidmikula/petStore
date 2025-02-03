@@ -1,0 +1,62 @@
+[
+    {
+        "title": "The Ultimate Cozy Pet Hoodie",
+        "date": "2025-02-02",
+        "description": "Discover the softest and warmest hoodies for your pets. Keep them stylish and comfortable all year round.",
+        "image": "images/blog/b1.jpg"
+    },
+    {
+        "title": "How to Choose the Best Pet Collar",
+        "date": "2025-01-04",
+        "description": "From leather to nylon, explore the best pet collars to keep your furry friend safe and stylish.",
+        "image": "images/blog/b2.jpg"
+    },
+    {
+        "title": "Must-Have Accessories for Your Dog",
+        "date": "2025-01-03",
+        "description": "A guide to essential dog accessories, from leashes and harnesses to cozy beds and interactive toys.",
+        "image": "images/blog/b3.jpg"
+    },
+    {
+        "title": "Trendy Pet Carriers for Small Dogs",
+        "date": "2025-01-02",
+        "description": "Check out the latest fashionable and functional pet carriers that make traveling with your pet easy.",
+        "image": "images/blog/b4.jpg"
+    },
+    {
+        "title": "The Best Winter Jackets for Pets",
+        "date": "2025-01-01",
+        "description": "Keep your pet warm this winter with the best insulated and waterproof jackets on the market.",
+        "image": "images/blog/b6.jpg"
+    },
+    {
+        "title": "Luxury Beds for Your Furry Friend",
+        "date": "2024-12-31",
+        "description": "Give your pet the ultimate comfort with these luxury pet beds designed for relaxation and support.",
+        "image": "images/blog/b3.jpg"
+    },
+    {
+        "title": "How to Pick the Right Leash for Your Pet",
+        "date": "2024-12-30",
+        "description": "Learn about different types of leashes, their benefits, and how to choose the best one for your pet.",
+        "image": "images/blog/b4.jpg"
+    },
+    {
+        "title": "Top Grooming Accessories for Pets",
+        "date": "2024-12-29",
+        "description": "Keep your pet clean and well-groomed with the best brushes, shampoos, and nail clippers.",
+        "image": "images/blog/b5.jpg"
+    },
+    {
+        "title": "Trendy Pet Bowls and Feeding Stations",
+        "date": "2024-12-28",
+        "description": "Upgrade your pet's mealtime with stylish and ergonomic feeding bowls and stations.",
+        "image": "images/blog/b6.jpg"
+    },
+    {
+        "title": "The Best Interactive Toys for Pets",
+        "date": "2024-12-27",
+        "description": "Engage and entertain your pet with these interactive toys that promote mental and physical activity.",
+        "image": "images/blog/b7.jpg"
+    }
+]

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourPuppy - Blog</title>
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Page Header Section -->
+    <section id="page-header" class="blog-header">
+        <h2>BLOG</h2>
+        <p>We write You read</p>
+    </section>
+
+    <!-- Blog Filter Section -->
+    <section id="blog-filter" class="section-p1">
+        <label for="blog-date">Select Date:</label>
+        <input type="date" id="blog-date">
+        <button id="filter-date" class="normal">Filter</button>
+        <button id="reset-date" class="normal">Reset</button>
+        <span id="filter-message"></span> <!-- Placeholder for filter message -->
+    </section>
+
+    <!-- Blog Content Section (Dynamically Loaded) -->
+    <section id="blog">
+        <!-- Blog articles will be dynamically inserted here -->
+    </section>
+
+    <!-- Pagination Section -->
+    <section id="pagination" class="section-p1"></section>
+
+    <!-- Placeholder for dynamically loaded newsletter -->
+    <script data-load-newsletter></script>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+
+</html>
