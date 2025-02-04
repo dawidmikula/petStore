@@ -677,7 +677,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Funkcja klikająca automatycznie stronę 1 po załadowaniu
     function clickFirstPage() {
-        const firstPageButton = document.querySelector("#pagination a:nth-child(3)"); // Pierwszy przycisk numerowany
+        const firstPageButton = document.querySelector("#pagination a:nth-child(2)"); // Pierwszy przycisk numerowany
         if (firstPageButton) {
             firstPageButton.click();
         }
