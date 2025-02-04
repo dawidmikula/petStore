@@ -548,16 +548,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Pobierz dane z `products.json`
     fetch("jsons/products.json")
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Błąd ładowania pliku products.json");
+            }
+            return response.json();
+        })
         .then(data => {
             products = data;
             renderPagination(products.length);
-            loadProducts();
+            loadProducts(); // Automatyczne ładowanie pierwszej strony
+            clickFirstPage(); // Kliknięcie strony 1 automatycznie
         })
         .catch(error => console.error("Error loading products:", error));
 
     // Funkcja generująca produkty na stronie
     function loadProducts() {
+        if (!products.length) return; // Zapobiega błędom, jeśli produkty nie zostały załadowane
+
         const productContainer = document.getElementById("product1");
         productContainer.innerHTML = `<div class="pro-container"></div>`; // Wyczyść poprzednie produkty
         const proContainer = productContainer.querySelector(".pro-container");
@@ -583,6 +591,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         scrollToTop();
+        updatePagination();
     }
 
     // Generowanie paginacji
@@ -597,13 +606,11 @@ document.addEventListener("DOMContentLoaded", function () {
         prevArrow.innerHTML = `<i class="fas fa-long-arrow-alt-left"></i>`;
         prevArrow.href = "#";
         prevArrow.classList.add("prev");
-        if (currentPage === 1) prevArrow.classList.add("disabled");
         prevArrow.addEventListener("click", function (event) {
             event.preventDefault();
             if (currentPage > 1) {
                 currentPage--;
                 loadProducts();
-                updatePagination();
             }
         });
         paginationContainer.appendChild(prevArrow);
@@ -617,7 +624,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 event.preventDefault();
                 currentPage = i;
                 loadProducts();
-                updatePagination();
             });
 
             paginationContainer.appendChild(pageButton);
@@ -627,13 +633,11 @@ document.addEventListener("DOMContentLoaded", function () {
         nextArrow.innerHTML = `<i class="fas fa-long-arrow-alt-right"></i>`;
         nextArrow.href = "#";
         nextArrow.classList.add("next");
-        if (currentPage === totalPages) nextArrow.classList.add("disabled");
         nextArrow.addEventListener("click", function (event) {
             event.preventDefault();
             if (currentPage < totalPages) {
                 currentPage++;
                 loadProducts();
-                updatePagination();
             }
         });
         paginationContainer.appendChild(nextArrow);
@@ -670,7 +674,17 @@ document.addEventListener("DOMContentLoaded", function () {
             behavior: "smooth"
         });
     }
+
+    // Funkcja klikająca automatycznie stronę 1 po załadowaniu
+    function clickFirstPage() {
+        const firstPageButton = document.querySelector("#pagination a:nth-child(3)"); // Pierwszy przycisk numerowany
+        if (firstPageButton) {
+            firstPageButton.click();
+        }
+    }
 });
+
+
 
 document.addEventListener("DOMContentLoaded", function () {
     fetch("jsons/products.json")
